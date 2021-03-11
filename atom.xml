@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GTHD</title>
+  
+  <subtitle>Genome Topology Human Disease Database</subtitle>
+  <link href="https://gthd-db.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://gthd-db.github.io/"/>
+  <updated>2021-02-25T07:09:11.364Z</updated>
+  <id>https://gthd-db.github.io/</id>
+  
+  <author>
+    <name>GTHD</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo 5.4.0 released</title>
+    <link href="https://gthd-db.github.io/news/2021/02/21/hexo-5-4-0-released/"/>
+    <id>https://gthd-db.github.io/news/2021/02/21/hexo-5-4-0-released/</id>
+    <published>2021-02-21T00:00:00.000Z</published>
+    <updated>2021-02-25T07:09:11.364Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hexo-5-4-0"><a href="#Hexo-5-4-0" class="headerlink" title="Hexo 5.4.0"></a>Hexo 5.4.0</h2><h3 id="New-features"><a href="#New-features" class="headerlink" title="New features"></a>New features</h3><ul><li>feat: handle config.root is not exist <a href="https://github.com/jiangtj">@jiangtj</a> <a href="https://github.com/hexojs/hexo/pull/4616">#4616</a></li></ul><h3 id="Breaking-change"><a href="#Breaking-change" class="headerlink" title="Breaking change"></a>Breaking change</h3><ul><li>fix(excerpt): use span instead of anchor element for better SEO performance @stevenjoezhang] <a href="https://github.com/hexojs/hexo/pull/4627">#4627</a></li></ul><h3 id="Fixes"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes</h3><ul><li>fix(box): set property awaitWriteFinish for chokidar filewatcher <a href="https://github.com/stevenjoezhang">@stevenjoezhang</a> <a href="https://github.com/hexojs/hexo/pull/4633">#4633</a></li><li>fix(codeblock): match whitespace but not newlines <a href="https://github.com/stevenjoezhang">@stevenjoezhang</a> <a href="https://github.com/hexojs/hexo/pull/4625">#4625</a></li><li>fix(i18n): page.lang is undefined when using the key <code>language</code> in front-matter <a href="https://github.com/stevenjoezhang">@stevenjoezhang</a> <a href="https://github.com/hexojs/hexo/pull/4614">#4614</a></li></ul><h3 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h3><ul><li>github: update actions/setup-node action to v2 <a href="https://github.com/stevenjoezhang">@stevenjoezhang</a> <a href="https://github.com/hexojs/hexo/pull/4604">#4604</a></li><li>chore/ci: migrate from probot/stale to GitHub Actions <a href="https://github.com/stevenjoezhang">@stevenjoezhang</a> <a href="https://github.com/hexojs/hexo/pull/4598">#4598</a></li></ul><h3 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h3><ul><li>chore(deps): bump js-yaml from 3.14.1 to 4.0.0 @dependabot-preview [#4607]</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Hexo-5-4-0&quot;&gt;&lt;a href=&quot;#Hexo-5-4-0&quot; class=&quot;headerlink&quot; title=&quot;Hexo 5.4.0&quot;&gt;&lt;/a&gt;Hexo 5.4.0&lt;/h2&gt;&lt;h3 id=&quot;New-features&quot;&gt;&lt;a href=&quot;#New-featu</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 5.3.0 released</title>
+    <link href="https://gthd-db.github.io/news/2020/12/17/hexo-5-3-released/"/>
+    <id>https://gthd-db.github.io/news/2020/12/17/hexo-5-3-released/</id>
+    <published>2020-12-17T00:00:00.000Z</published>
+    <updated>2021-02-25T07:09:11.350Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hexo-5-3-0"><a href="#Hexo-5-3-0" class="headerlink" title="Hexo 5.3.0"></a>Hexo 5.3.0</h2><h3 id="New-features"><a href="#New-features" class="headerlink" title="New features"></a>New features</h3><ul><li>expose <code>escape_html</code> helper method for string manipulation to templates @awwong1 <a href="https://github.com/hexojs/hexo/pull/4581">#4581</a></li><li>list_tags: span element &amp; custom class for label @noraj <a href="https://github.com/hexojs/hexo/pull/4578">#4578</a></li></ul><h3 id="Fixes"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes</h3><ul><li>fix(load_plugins): ignore plugin whose name is started with “hexo-theme” @stevenjoezhang <a href="https://github.com/hexojs/hexo/pull/4592">#4592</a></li><li>fix(codeblock): closing code fence may be followed only by spaces @stevenjoezhang <a href="https://github.com/hexojs/hexo/pull/4574">#4574</a></li></ul><h3 id="Refactor"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor</h3><ul><li>Replace <code>process.mainModule</code> with <code>require.main</code> @stevenjoezhang <a href="https://github.com/hexojs/hexo/pull/4583">#4583</a></li></ul><h2 id="Docs"><a href="#Docs" class="headerlink" title="Docs"></a>Docs</h2><ul><li>docs(badge): replace david-dm with more reliable shields.io @curbengh <a href="https://github.com/hexojs/hexo/pull/4538">#4538</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Hexo-5-3-0&quot;&gt;&lt;a href=&quot;#Hexo-5-3-0&quot; class=&quot;headerlink&quot; title=&quot;Hexo 5.3.0&quot;&gt;&lt;/a&gt;Hexo 5.3.0&lt;/h2&gt;&lt;h3 id=&quot;New-features&quot;&gt;&lt;a href=&quot;#New-featu</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 2.8 Released</title>
+    <link href="https://gthd-db.github.io/news/2014/07/13/hexo-2-8-released/"/>
+    <id>https://gthd-db.github.io/news/2014/07/13/hexo-2-8-released/</id>
+    <published>2014-07-13T00:00:00.000Z</published>
+    <updated>2021-02-26T03:01:45.826Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo 2.8 was rewritten, brings you better performance and many improvements. The following is the highlights in this version. You can check <a href="https://github.com/hexojs/hexo/releases/tag/2.8.0">detail</a> on GitHub.</p><h2 id="Faster-Processing-Speed"><a href="#Faster-Processing-Speed" class="headerlink" title="Faster Processing Speed"></a>Faster Processing Speed</h2><p>Before Hexo 2.8, all source files have to be processed each time you use Hexo. In Hexo 2.8, the entire database will be saved to <code>db.json</code> so Hexo don’t have to process all files again. Also, a new data type “<strong>skip</strong>“ was added for processors to detect whether a file was changed or not.</p><p>Generating was also changed in Hexo 2.8. You can check the elapsed time of each file in console now. However, I found multi-process generating didn’t affect generating speed a lot. Thus, <code>multi_thread</code> and <code>max_open_file</code> setting are deprecated in Hexo 2.8.</p><img src="/news/2014/07/13/hexo-2-8-released/generate-console.png" class=""><h2 id="Draft-Publish"><a href="#Draft-Publish" class="headerlink" title="Draft Publish"></a>Draft Publish</h2><p>You don’t have to enter full file name to publish a post anymore. Draft publish system is rewritten in Hexo 2.8. <code>new_post_name</code> setting will be applied until drafts are published. Besides, you can choose which layout to apply when publishing.</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure><p>A new API <code>post.publish</code> was added to help you publish drafts more easily.</p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">hexo.post.publish(&#123;<span class="attr">slug</span>: <span class="string">&#x27;hello-world&#x27;</span>, <span class="attr">layout</span>: <span class="string">&#x27;post&#x27;</span>&#125;, <span class="function"><span class="keyword">function</span>(<span class="params">err, target</span>)</span>&#123;</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h2 id="Permalink"><a href="#Permalink" class="headerlink" title="Permalink"></a>Permalink</h2><p>File name and permalink now share a more universal variable system. Every variables in file name can also be read in permalink. Here’s a config for example:</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:type/:title/</span></span><br><span class="line"><span class="attr">new_post_name:</span> <span class="string">:type/:title.md</span></span><br></pre></td></tr></table></figure><p>When you create a post, the post will be saved to <code>source/_posts/test/Hello-World.md</code> and the URL will be <code>http://localhost:4000/test/Hello-World/</code>.</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;Hello World&quot;</span> --<span class="built_in">type</span> <span class="built_in">test</span></span><br></pre></td></tr></table></figure><h2 id="Multi-language-Support"><a href="#Multi-language-Support" class="headerlink" title="Multi-language Support"></a>Multi-language Support</h2><p>With the new permalink introduced in the previous section, it’s much easier to create a multi-language site. For example:</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:lang/:title/</span></span><br><span class="line"><span class="attr">new_post_name:</span> <span class="string">:lang/:title.md</span></span><br></pre></td></tr></table></figure><p>Then you can create a post with <code>--lang</code> option:</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;Hello World&quot;</span> --lang en</span><br><span class="line"><span class="comment"># =&gt; This post will be saved to source/_posts/en/Hello-World.md</span></span><br><span class="line"><span class="comment"># =&gt; URL: http://localhost:4000/en/Hello-World/</span></span><br><span class="line"></span><br><span class="line">$ hexo new <span class="string">&quot;你好世界&quot;</span> --lang tw</span><br><span class="line"><span class="comment"># =&gt; This post will be saved to source/_posts/tw/你好世界.md</span></span><br><span class="line"><span class="comment"># =&gt; URL: http://localhost:4000/tw/你好世界/</span></span><br></pre></td></tr></table></figure><p>You can define the default value of permalink variables in <code>permalink_defaults</code> setting. For example, we define the default language as English.</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line">  <span class="attr">lang:</span> <span class="string">en</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hexo 2.8 was rewritten, brings you better performance and many improvements. The following is the highlights in this version. You can che</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>贡献 | GTHD</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://gthd-db.github.io/zh-cn/docs/contributing.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://gthd-db.github.io/zh-cn/docs/contributing">
+    
+      <link rel="alternative" hreflang="zh-cn" href="https://gthd-db.github.io/zh-cn/zh-cn/docs/contributing">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  
+<link rel="stylesheet" href="/css/navy.css">
+
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-lato@0.0.75/index.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="GTHD" type="application/atom+xml">
+  <!-- Open Graph -->
+  <meta name="description" content="我们非常欢迎您加入 Hexo 的开发。 🤗 开发我们非常欢迎您加入 Hexo 的开发，这份文件将帮助您了解开发流程。 开始之前请首先阅读《贡献者行为准则》，并确保您不会违反它。 请使用以下代码风格：  遵守 Google JavaScript 代码风格。 缩进使用 2 个空格。 不要把逗号放在最前面。  另外，Hexo 拥有自己的 ESLint 配置，因此请确保您的贡献能够通过 ESLint。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="贡献">
+<meta property="og:url" content="https://gthd-db.github.io/zh-cn/docs/contributing">
+<meta property="og:site_name" content="GTHD">
+<meta property="og:description" content="我们非常欢迎您加入 Hexo 的开发。 🤗 开发我们非常欢迎您加入 Hexo 的开发，这份文件将帮助您了解开发流程。 开始之前请首先阅读《贡献者行为准则》，并确保您不会违反它。 请使用以下代码风格：  遵守 Google JavaScript 代码风格。 缩进使用 2 个空格。 不要把逗号放在最前面。  另外，Hexo 拥有自己的 ESLint 配置，因此请确保您的贡献能够通过 ESLint。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-02-25T07:09:11.489Z">
+<meta property="article:modified_time" content="2021-02-25T07:09:11.489Z">
+<meta property="article:author" content="GTHD">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="hexojs">
+<meta property="fb:admins" content="100000247608790">
+  <!-- Google Analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48498357-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6482217598104186",
+          enable_page_level_ads: true
+     });
+  </script>
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/zh-cn/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/zh-cn/home/" class="main-nav-link">Home</a><a href="/zh-cn/submit/" class="main-nav-link">Submit</a><a href="/news/" class="main-nav-link">新闻</a><a href="/plugins/" class="main-nav-link">插件</a><a href="/themes/" class="main-nav-link">主题</a><a href="/about/" class="main-nav-link">关于</a>
+      <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/gthd-db/site" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
+      <div id="search-input-wrap">
+        <div id="search-input-icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="search" id="search-input" placeholder="Search...">
+      </div>
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="">
+        
+          <option value="en">English</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">贡献</h1>
+                <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/site/edit/master/source/zh-cn/docs/contributing.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <p>我们非常欢迎您加入 Hexo 的开发。 🤗</p>
+<h2 id="开发" class="article-heading"><a href="#开发" class="headerlink" title="开发"></a>开发<a class="article-anchor" href="#开发" aria-hidden="true"></a></h2><p>我们非常欢迎您加入 Hexo 的开发，这份文件将帮助您了解开发流程。</p>
+<h3 id="开始之前" class="article-heading"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前<a class="article-anchor" href="#开始之前" aria-hidden="true"></a></h3><p>请首先阅读<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/blob/master/CODE_OF_CONDUCT.md">《贡献者行为准则》</a>，并确保您不会违反它。</p>
+<p>请使用以下代码风格：</p>
+<ul>
+<li>遵守 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://google.github.io/styleguide/jsguide.html">Google JavaScript 代码风格</a>。</li>
+<li>缩进使用 2 个空格。</li>
+<li>不要把逗号放在最前面。</li>
+</ul>
+<p>另外，Hexo 拥有自己的 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/eslint-config-hexo">ESLint 配置</a>，因此请确保您的贡献能够通过 ESLint。</p>
+<h3 id="工作流" class="article-heading"><a href="#工作流" class="headerlink" title="工作流"></a>工作流<a class="article-anchor" href="#工作流" aria-hidden="true"></a></h3><ol>
+<li>Fork <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo">hexojs/hexo</a></li>
+<li>把库（repository）复制到电脑上，并安装所依赖的插件。</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/&lt;username&gt;/hexo.git</span><br><span class="line">$ <span class="built_in">cd</span> hexo</span><br><span class="line">$ npm install</span><br><span class="line">$ git submodule update --init</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>新增一个功能分支。</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git checkout -b new_feature</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>开始开发。</li>
+<li>推送（push）分支。</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git push origin new_feature</span><br></pre></td></tr></table></figure>
+<ol start="6">
+<li>建立一个新的合并申请（pull request）并描述变动。</li>
+</ol>
+<h3 id="注意事项" class="article-heading"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项<a class="article-anchor" href="#注意事项" aria-hidden="true"></a></h3><ul>
+<li>不要修改 <code>package.json</code> 的版本号。</li>
+<li>只有在测试通过的情况下您的合并申请才会被批准，在提交前别忘了进行测试。</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
+<h2 id="更新-Hexo-官方插件" class="article-heading"><a href="#更新-Hexo-官方插件" class="headerlink" title="更新 Hexo 官方插件"></a>更新 Hexo 官方插件<a class="article-anchor" href="#更新-Hexo-官方插件" aria-hidden="true"></a></h2><p>我们也欢迎给 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs">Hexo 官方插件</a> 提交 PR 和 Issue 🤗</p>
+<h2 id="更新文档" class="article-heading"><a href="#更新文档" class="headerlink" title="更新文档"></a>更新文档<a class="article-anchor" href="#更新文档" aria-hidden="true"></a></h2><p>Hexo 文档开放源代码，您可以在 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/site">hexojs/site</a> 找到源代码。</p>
+<h3 id="工作流-1" class="article-heading"><a href="#工作流-1" class="headerlink" title="工作流"></a>工作流<a class="article-anchor" href="#工作流-1" aria-hidden="true"></a></h3><ol>
+<li>Fork <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/site">hexojs/site</a></li>
+<li>把库（repository）复制到电脑上，并安装所依赖的插件。</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g <span class="comment"># If you don&#x27;t have hexo-cli installed</span></span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/&lt;username&gt;/site.git</span><br><span class="line">$ <span class="built_in">cd</span> site</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>开始编辑文件，您可以通过服务器预览变动。</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>推送（push）分支。</li>
+<li>建立一个新的合并申请（pull request）并描述变动。</li>
+</ol>
+<h3 id="翻译" class="article-heading"><a href="#翻译" class="headerlink" title="翻译"></a>翻译<a class="article-anchor" href="#翻译" aria-hidden="true"></a></h3><ol>
+<li>在 <code>source</code> 资料夹中建立一个新的语言资料夹（全小写）。</li>
+<li>把 <code>source</code> 资料夹中相关的文件（Markdown 和模板文件）复制到新的语言资料夹中。</li>
+<li>在 <code>source/_data/language.yml</code> 中新增语言。</li>
+<li>将 <code>en.yml</code> 复制到 <code>themes/navy/languages</code>中并命名为语言名称（全小写）。</li>
+</ol>
+<h2 id="反馈问题" class="article-heading"><a href="#反馈问题" class="headerlink" title="反馈问题"></a>反馈问题<a class="article-anchor" href="#反馈问题" aria-hidden="true"></a></h2><p>当您在使用 Hexo 时遇到问题，您可以尝试在 <a href="troubleshooting.html">问题解答</a> 中寻找解答，或是在 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/issues">GitHub</a> 或 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://groups.google.com/group/hexo">Google Group</a> 上提问。如果你没有找答案，请在 Github 报告它。</p>
+<ol>
+<li>在 <a href="commands.html#%E8%B0%83%E8%AF%95%E6%A8%A1%E5%BC%8F">调试模式</a> 中重现问题。</li>
+<li>在 GitHub 上提交 Issue 时，请遵循 Issue 模板中的步骤提供调试消息和版本信息。</li>
+</ol>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2021-02-25T07:09:11.489Z" itemprop="dateModified">上次更新：2021-02-25</time>
+                
+              </footer>
+              
+<section id="comments">
+  <div id="disqus_thread"></div>
+</section>
+<script>
+  var disqus_shortname = 'hexojs';
+  var disqus_url = 'https://gthd-db.github.io/zh-cn/docs/contributing.html';
+  var disqus_title = "贡献";
+  var disqus_config = function(){
+    this.language = 'zh';
+  };
+  (function(){
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=hexoio" id="_carbonads_js"></script>
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%8F%91"><span class="toc-text">开发</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D"><span class="toc-text">开始之前</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E6%B5%81"><span class="toc-text">工作流</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">注意事项</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%B4%E6%96%B0-Hexo-%E5%AE%98%E6%96%B9%E6%8F%92%E4%BB%B6"><span class="toc-text">更新 Hexo 官方插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%B4%E6%96%B0%E6%96%87%E6%A1%A3"><span class="toc-text">更新文档</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E6%B5%81-1"><span class="toc-text">工作流</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BF%BB%E8%AF%91"><span class="toc-text">翻译</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8D%E9%A6%88%E9%97%AE%E9%A2%98"><span class="toc-text">反馈问题</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2021 <a href="https://github.com/hexojs/hexo/graphs/contributors" rel="external nofollow noreferrer" target="_blank">GTHD</a><br>
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>.
+    </div>
+    <div id="footer-links">
+      <a href="https://www.netlify.com/" rel="external nofollow noreferrer" class="footer-link" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" style="margin-bottom:-14px"/></a>
+      <a href="https://twitter.com/hexojs" rel="external nofollow noreferrer" class="footer-link" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/gthd-db/site" rel="external nofollow noreferrer" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/zh-cn/home/" class="mobile-nav-link">Home</a><a href="/zh-cn/submit/" class="mobile-nav-link">Submit</a><a href="/news/" class="mobile-nav-link">新闻</a><a href="/plugins/" class="mobile-nav-link">插件</a><a href="/themes/" class="mobile-nav-link">主题</a><a href="/about/" class="mobile-nav-link">关于</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/gthd-db/site" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="">
+      
+        <option value="en">English</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+
+<script src="/js/lang_select.js"></script>
+
+
+<script src="/js/mobile_nav.js"></script>
+
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+<script type="text/javascript">
+document.getElementById('search-input-wrap').classList.add('on');
+docsearch({
+  apiKey: 'cdea7d4e47d84f6145b77e7f68689f35',
+  indexName: 'hexo_zh-cn',
+  inputSelector: '#search-input'
+});
+</script>
+
+
+</body>
+</html>
